@@ -1,0 +1,37 @@
+# Procesadores INTEL
+
+Aquí tienes una tabla que indica los sockets utilizados por los procesadores Intel desde la 10.ª hasta la 14.ª generación, incluyendo las series **Core Ultra (Meteor Lake)**:
+
+---
+
+### **Tabla de Sockets de Procesadores Intel (10.ª a 14.ª Generación)**
+| **Serie**       | **10.ª Gen** (Comet Lake/Ice Lake) | **11.ª Gen** (Rocket Lake/Tiger Lake) | **12.ª Gen** (Alder Lake) | **13.ª Gen** (Raptor Lake) | **14.ª Gen** (Raptor Lake Refresh / Meteor Lake) |
+|-----------------|-----------------------------------|--------------------------------------|--------------------------|--------------------------|------------------------------------------------|
+| **Core i3**     | LGA 1200                          | LGA 1200 (Desktop) / BGA 1526 (Mobile) | LGA 1700                | LGA 1700                | LGA 1700 (Desktop) / BGA 2042 (Meteor Lake)   |
+| **Core i5**     | LGA 1200                          | LGA 1200 / BGA 1526                  | LGA 1700                | LGA 1700                | LGA 1700 / BGA 2042                           |
+| **Core i7**     | LGA 1200                          | LGA 1200 / BGA 1526                  | LGA 1700                | LGA 1700                | LGA 1700 / BGA 2042                           |
+| **Core i9**     | LGA 1200                          | LGA 1200                             | LGA 1700                | LGA 1700                | LGA 1700                                      |
+| **Xeon W**      | LGA 1200 (W-1200)                 | -                                    | -                       | -                       | -                                             |
+| **Xeon E**      | LGA 1200 (E-2300)                 | -                                    | -                       | -                       | -                                             |
+| **Core Ultra 5**| -                                 | -                                    | -                       | -                       | BGA 2042 (Meteor Lake)                        |
+| **Core Ultra 7**| -                                 | -                                    | -                       | -                       | BGA 2042                                      |
+| **Core Ultra 9**| -                                 | -                                    | -                       | -                       | BGA 2042                                      |
+
+---
+
+### **Notas importantes:**
+1. **Sockets principales**:
+   - **LGA 1200**: Usado en las generaciones 10.ª y 11.ª (Comet Lake, Rocket Lake).
+   - **LGA 1700**: Usado desde la 12.ª hasta la 14.ª generación (Alder Lake, Raptor Lake y Raptor Lake Refresh).
+   - **BGA 2042**: Exclusivo para los nuevos **Core Ultra (Meteor Lake, 14.ª Gen móvil)**, soldados en placas (no reemplazables).
+
+2. **Xeon**:  
+   - Las series Xeon para equipos de escritorio (como los **E-2300** o **W-1200**) usaron LGA 1200, pero no hay equivalentes recientes en generaciones posteriores.
+
+3. **Core Ultra (Meteor Lake)**:
+   - Solo disponibles en versión móvil (BGA 2042), no tienen equivalente en socket LGA para desktop.
+
+4. **Compatibilidad**:
+   - Los sockets **LGA 1700** son compatibles entre 12.ª, 13.ª y 14.ª generación (con actualización de BIOS en algunas placas).
+
+Si necesitas detalles adicionales (como chipsets compatibles), ¡avísame!
