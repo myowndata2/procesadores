@@ -1,1 +1,1 @@
-# procesadores
+# procesadores INTEL y AMD
