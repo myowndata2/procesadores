@@ -1,1 +1,49 @@
 # AMD
+
+Aquí tienes una tabla detallada con las generaciones de procesadores **AMD Ryzen** (desde su lanzamiento en 2017) y sus sockets correspondientes, incluyendo también las series **Ryzen Threadripper** y **APUs**:
+
+---
+
+### **Tabla de Generaciones AMD Ryzen y Sockets**  
+| **Generación** | **Nombre en Código**       | **Año de Lanzamiento** | **Socket**      | **Series Incluidas**                     | **Notas**                          |
+|----------------|---------------------------|-----------------------|----------------|-----------------------------------------|-----------------------------------|
+| **1.ª Gen**    | Summit Ridge (CPU)        | 2017                  | AM4            | Ryzen 1000 (ej. Ryzen 7 1800X)          | Primera generación Zen.           |
+|                | Raven Ridge (APU)         | 2018                  | AM4            | Ryzen 2000G (ej. Ryzen 5 2400G)         | Integra gráficos Vega.            |
+| **2.ª Gen**    | Pinnacle Ridge (CPU)      | 2018                  | AM4            | Ryzen 2000 (ej. Ryzen 7 2700X)          | Mejoras menores (Zen+).           |
+|                | Picasso (APU)             | 2019                  | AM4            | Ryzen 3000G (ej. Ryzen 5 3400G)         | Gráficos Vega mejorados.          |
+| **3.ª Gen**    | Matisse (CPU)             | 2019                  | AM4            | Ryzen 3000 (ej. Ryzen 9 3900X)          | Arquitectura Zen 2.               |
+|                | Renoir (APU)              | 2020                  | AM4            | Ryzen 4000G (ej. Ryzen 7 4700G)         | Solo para OEM (no retail).        |
+| **4.ª Gen**    | Vermeer (CPU)             | 2020                  | AM4            | Ryzen 5000 (ej. Ryzen 9 5950X)          | Zen 3, gran salto en IPC.         |
+|                | Cezanne (APU)             | 2021                  | AM4            | Ryzen 5000G (ej. Ryzen 7 5700G)         | Gráficos Vega, disponible en retail. |
+| **5.ª Gen**    | Raphael (CPU)             | 2022                  | **AM5**        | Ryzen 7000 (ej. Ryzen 9 7950X)          | Zen 4, soporte DDR5 y PCIe 5.0.   |
+|                | Phoenix (APU)             | 2023                  | AM5            | Ryzen 7040 (ej. Ryzen 7 7840HS)         | Gráficos RDNA 3 (iGPU avanzada).  |
+| **6.ª Gen**    | Granite Ridge (CPU)       | *2024 (esperado)*     | AM5            | Ryzen 8000 (por confirmar)              | Zen 5 (en desarrollo).            |
+
+---
+
+### **Sockets Especiales (Threadripper y HEDT)**  
+| **Serie**          | **Generaciones**       | **Socket**      | **Notas**                                  |
+|--------------------|------------------------|----------------|-------------------------------------------|
+| **Threadripper**   | 1.ª y 2.ª Gen (Zen/Zen+) | TR4            | Hasta 32 núcleos (ej. 2990WX).            |
+|                    | 3.ª Gen (Zen 2)        | sTRX4          | Soporte PCIe 4.0 (ej. 3970X).             |
+|                    | *4.ª Gen (Zen 3)*      | *sWRX8*        | *Solo para estaciones de trabajo (Pro).*  |
+| **Threadripper Pro** | Zen 3 (5000WX)        | sWRX8          | Hasta 64 núcleos (ej. 5995WX).            |
+
+---
+
+### **Claves importantes:**  
+1. **AM4**:  
+   - Dominó desde 2017 hasta 2022. Compatible con **cuatro generaciones** de Ryzen (1.ª a 5.ª Gen en APUs).  
+   - Soporta DDR4 y PCIe 3.0/4.0 (dependiendo de la generación).  
+
+2. **AM5**:  
+   - Lanzado en 2022 con Ryzen 7000. Usa **DDR5 exclusivamente** y PCIe 5.0.  
+   - Compatible con refrigeradores de AM4 (mismo sistema de montaje).  
+
+3. **Threadripper**:  
+   - Para entusiastas y estaciones de trabajo (sockets TR4/sTRX4/sWRX8).  
+
+4. **APUs**:  
+   - Las APUs suelen llegar después que las CPUs de cada generación (ej. Ryzen 5000G se basan en Zen 3, pero son posteriores a los Ryzen 5000 normales).  
+
+Si necesitas detalles sobre chipsets (B350, X570, X670, etc.) o compatibilidad entre placas y CPUs, ¡avísame!
